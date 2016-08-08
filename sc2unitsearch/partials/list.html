@@ -1,0 +1,37 @@
+<section class="sc2UnitsPage">
+	<div class="search">
+		<h1 class="gameTitle">Starcraft II :</h1>
+		<h1>Combat Unit Search</h1>
+		<label>search: </label>
+		<input ng-model="query" placeholder="Search for units" autofocus>
+
+		<label class="formgroup">sort by:
+			<select ng-model="sc2UnitOrder">
+				<option value="name">Name</option>
+				<option value="race">Race</option>
+			</select>
+		</label>
+
+		<label class="formgroup">
+			<input type="radio" ng-model="direction" name="direction" ng-checked="true" >
+			ascending
+		</label>
+		<label class="formgroup">
+			<input type="radio" ng-model="direction" name="direction" value="reverse" >
+			descending
+		</label>
+	</div>
+
+	<ul class="sc2UnitList" ng-show="query">
+		<li class="sc2Unit cf" ng-repeat="item in sc2Units | filter: query | orderBy: sc2UnitOrder:direction">
+		<a href="#details/{{sc2Units.indexOf(item)}}">
+			<img ng-src="images/unit_renders/{{item.race}}/{{item.shortname}}-thumb.jpg" alt="Phot of {{item.name}}">
+			<div class="info">
+				<h2>{{item.name}}</h2>
+				<h3>Race: {{item.race}}</h3>
+			</div>
+		</li>
+		</a>
+	</ul>
+
+</section>
