@@ -1,0 +1,13 @@
+<section class="sc2UnitInfo">
+	<div class="sc2Unit cf" ng-model="sc2Units">
+		<a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
+		<a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>
+		<h1>{{sc2Units[whichItem].name}}</h1>
+		<div class="info">
+			<h3>{{sc2Units[whichItem].race}}</h3>
+			<img ng-src="images/unit_renders/{{sc2Units[whichItem].race}}/{{sc2Units[whichItem].shortname}}-medium.jpg" alt="Photo of {{sc2Units[whichItem].name}}">
+			<div class="description">{{sc2Units[whichItem].description}}</div>
+		</div>
+	</div>
+	<a href="index.html">&laquo; Back to search</a>
+</section>

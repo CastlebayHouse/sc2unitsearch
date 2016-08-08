@@ -1,0 +1,98 @@
+[
+  {
+    "name":"Raven",
+    "shortname":"Raven",
+    "race":"Terran",
+    "description":"The Raven is an all-around workhorse that combines the functions of a surveillance drone and a combat engineer. A common sight among the fringe-world colonies, these robust air-mobile vehicles are built to operate independently in harsh climates. Ravens excel in protection and reconnaissance due to their defensive Auto-Turrets and their advanced sensors, which can detect cloaked or burrowed enemies. The Terran Dominion initially designed the Raven to give low-level protection to its most isolated outposts, but recently the Raven has been used in escalating levels of conflict to replace the older and costlier Science Vessel.",
+    "life":"140",
+    "energy":"200"
+  },
+  {
+    "name":"Thor",
+    "shortname":"Thor",
+    "race":"Terran",
+    "description":"The Thor project has been shrouded in mystery since its inception. Agents of the Umojan Protectorate were the first to investigate the Dominion’s new terror weapon. Images from this investigation showed a huge bipedal war machine armed with a dorsal artillery battery that wouldn’t be out of place on a battleship. Most disturbing of all was the discovery that this monster could be built rapidly from the ground up by a standard Factory.",
+    "life":"400",
+    "energy":"0"
+  },
+  {
+    "name":"Marine",
+    "shortname":"Marine",
+    "race":"Terran",
+    "description":"Marines are the first line of defense for Terran planets in the Koprulu sector. Under the old Confederacy, the majority of Marines were criminals or rebels who had undergone mandatory neural resocialization to ensure their absolute loyalty. This practice has been reportedly scaled back, but it remains common due to insufficient volunteers to serve in the military. The heavy armor worn by Marines is effective against small-arms fire and provides them with full life support and NBC (Nuclear/Biological/Chemical) shielding for operation in deep space and other hostile environments. Marines are armed with C-14 Impaler Gauss Rifles that fire 8mm metal spikes at hypersonic speeds.",
+    "life":"45",
+    "energy":"0"
+  },
+  {
+    "name":"Medivac",
+    "shortname":"Medivac",
+    "race":"Terran",
+    "description":"Post-Brood War military analysis determined that 37% of Dominion troops serving in the field sustained heavy injuries and were removed from the combat zone for medical attention. This was an alarming statistic with disastrous implications: soldiers were in medical bays instead of en route to the front lines. Under Emperor Mengsk’s personal order, the Dropship was redesigned with medical technology to serve dual streamlined purposes – transportation and triage – thereby keeping Dominion Marines in the field longer, regardless of injury. It did not take long for the Umojan Protectorate and the Kel-Morian Combine to adopt this innovation as well.",
+    "life":"150",
+    "energy":"200"
+  },
+    {
+    "name":"Siege Tank",
+    "shortname":"SiegeTank",
+    "race":"Terran",
+    "description":"The Crucio is the Dominion’s replacement for the popular but aging Arclite Siege Tank. Originally designed to be a defensive security cannon, the Arclite utilized a two-stage configuration: a mobile Tank Mode and a static, long-range Siege Mode. The inherent flexibility of this model was a great success. The new Crucio has been designed for increased survivability, with an enlarged, reinforced turret and hull. The turret layout also features an upgraded Tank-Mode armament package, allowing the Crucio to defend itself more successfully in open battlefields. The Crucio is costlier than its predecessor, but its increased versatility justifies the additional expense.",
+    "life":"160",
+    "energy":"0"
+  },
+    {
+    "name":"SCV",
+    "shortname":"SCV",
+    "race":"Terran",
+    "description":"Initially used during the reconstruction of the old Confederacy’s Tarsonian orbital platforms, the T-280 SCV is a staple of construction and repair across the Dominion. The SCV is the workhorse of the Terran planets due to its ability to perform a multitude of tasks, including constructing new buildings, repairing damaged structures and units, and harvesting and transporting raw resource materials. This versatility and unmatched reliability make the SCV an invaluable tool in rapidly establishing Marine encampments on any terrain.",
+    "life":"45",
+    "energy":"0"
+  },
+  {
+    "name":"Zealot",
+    "shortname":"Zealot",
+    "race":"Protoss",
+    "description":"For more than a thousand years, the Protoss of the Templar caste have defended their people, dedicating their long lives to the pursuit of martial perfection. Zealots are peerless warriors who have yet to ascend to the uppermost ranks of the Khala. Ever eager for advancement, they train for decades in hand-to-hand combat, tactics, pain tolerance, and martial discipline. Their formidable physiques are further enhanced by cybernetic implants and power suits. Zealots use their substantial psionic abilities to create blades of pure energy that serve as their primary melee weapons.",
+    "life":"100",
+    "energy":"0"
+  },
+  {
+    "name":"Probe",
+    "shortname":"Probe",
+    "race":"Protoss",
+    "description":"Originally designed by the Khalai caste to lay the foundation for Protoss settlements, Probes are robotic drones that service the Nexus and gather the numerous resources needed to power Protoss technologies. Probes also manufacture and plant the micro-beacons that anchor the teleport matrices of structures. These beacons allow the Protoss to warp-in prefabricated structures from their homeworld. Often Probes are used as rudimentary spies, sent ahead to survey the potential locations of enemy encampments.",
+    "life":"20",
+    "energy":"0"
+  },
+  {
+    "name":"Stalker",
+    "shortname":"Stalker",
+    "race":"Protoss",
+    "description":"Unlike other Protoss, the Dark Templar refused to surrender their individuality to the collective psionic bond of the Khala. They were exiled from Aiur and eventually resettled on the distant planet of Shakuras. By focusing on their inner psionic strength and drawing power from the Void, the Dark Templar have become highly skilled in masking their presence. Combining this technique with the Protoss Dragoon walker model, the Dark Templar created Stalkers: machines controlled by the shadow essences of Dark Templar warriors. Stalkers are armed with Particle Disruptors and, with proper augmentation, can instantly teleport between locations. As a result, Stalkers can strike unexpectedly, catch fleeing enemies, or escape from unfavorable encounters.",
+    "life":"80",
+    "energy":"0"
+  },
+  {
+    "name":"High Templar",
+    "shortname":"HighTemplar",
+    "race":"Protoss",
+    "description":"The High Templar are the most seasoned warriors of the Protoss armies, an elite cadre who have advanced far beyond the Zealots to attain an even higher plane of martial focus. Although they excel in physical combat, High Templar prefer to use psionic attacks that they have developed through intensive training. The Protoss have such powerful psionic abilities that their presence inadvertently disrupts other life-forms. With careful guidance, High Templar can learn to augment this effect, creating storms of raw psionic energy that can tear apart the minds of lesser species.",
+    "life":"40",
+    "energy":"200"
+  },
+  {
+    "name":"Immortal",
+    "shortname":"Immortal",
+    "race":"Protoss",
+    "description":"Before the loss of Aiur, crippled Protoss warriors could volunteer to continue their service by transplanting their shattered remains into Dragoon exoskeletons. Tragically, the technology to continue this practice was lost in the rubble of their fallen homeworld. The remaining Dragoons, now known as Immortals, have been refitted with Twin Phase Disruptors and hardened energy shields. These heavily armed and shielded fighters give critical support by eliminating enemy artillery and ranged attackers, although they are vulnerable to rapid assaults from lesser foes. These ancient warriors are a dying breed willing to sacrifice everything for their people. Soon none will remain.",
+    "life":"200",
+    "energy":"0"
+  },
+  {
+    "name":"Colossus",
+    "shortname":"Colossus",
+    "race":"Protoss",
+    "description":"The towering Colossus is a Protoss robot design dating back to the bloody conflicts of the Kalath Intercession. It strides across the battlefield on four tall, slender legs that allow it to cross steep elevations with ease. The Colossus’ heavily armored hull carries two powerful Thermal Lances, with one on each side of its body. The robot’s beam attack cuts a broad swath across its targets, making the Colossus an ideal anti-infantry weapon. Unlike most other Protoss robots, the Colossus was created purely for destruction. Manufacturing Colossi has been outlawed for centuries, but the increasingly desperate war against the Zerg has forced the Protoss to revive the line.",
+    "life":"200",
+    "energy":"0"
+  }
+]
